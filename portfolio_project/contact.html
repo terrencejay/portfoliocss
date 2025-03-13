@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="/portfolio_project/styles.css" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/86bf57a332.js" crossorigin="anonymous"></script>
+        <title>Contact me</title>
+    </head>
+    <body>
+        <nav class="navbar">
+            <nav class="nav-image">
+                <a href="/portfolio_project/index.html"><img src="/portfolio_project/earth_transparent.png"></a>
+            </nav>
+            <a href="/portfolio_project/index.html">Home</a>
+            <a href="/portfolio_project/aboutme.html">About Me</a>
+            <a href="/portfolio_project/resume.html">Skills</a>
+            <a href="/portfolio_project/projects.html">Projects</a>
+            <a href="/portfolio_project/contact.html">Contact Me</a>
+        </nav>
+        <br>
+        <div class="form">
+            <h2>Contact me</h2>
+            <form action="/portfolio_project/send_contact.php" method="POST">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required placeholder="Your name">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email address</label>
+                    <input type="email" id="email" name="email" required placeholder="Enter your Email">
+                </div>
+                <div class="form-group">
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="5" required placeholder="Your message"></textarea>
+                </div>
+                <div class="form-group">
+                    <button type="submit">Send Message</button>
+                </div>
+            </form>
+        </div>
+        <br>
+        <div class = "github-contact">
+            <a href="https://github.com/terrencejay"><i class="fa-brands fa-github fa-beat fa-lg" style="color: aqua;"></i></a>
+            <p>You can see some of my work on github.com</p>
+        </div>
+        <br>
+        <div class="linkedin-icon">
+            <a href="linkedin.com/terrencejay"><i class="fa-brands fa-linkedin fa-bounce"></i></a>
+            <p>You can see my work history on linkedin</p>
+        </div>
+    </body>
+</html>
